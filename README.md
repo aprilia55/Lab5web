@@ -43,3 +43,5 @@ Kode berikut digunakan untuk menampilkan teks “Hello World” di halaman dan c
   </script>
 </body>
 </html>
+
+!(foto)[]

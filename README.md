@@ -46,7 +46,7 @@ Kode berikut digunakan untuk menampilkan teks “Hello World” di halaman dan c
 
 ```
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/e54e0cd9f7f5b01b650ae5055abc718d06dd3e21/hello%20world.png)
 
 ### 💬 3. Menampilkan Alert, Prompt, dan Function
 
@@ -67,11 +67,11 @@ Kode ini menampilkan pesan pop-up dan meminta input nama pengguna, kemudian mena
 </script>
 
 ```
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/e54e0cd9f7f5b01b650ae5055abc718d06dd3e21/pop%20up%201.png)
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/e54e0cd9f7f5b01b650ae5055abc718d06dd3e21/pop%20up2.png)
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/e54e0cd9f7f5b01b650ae5055abc718d06dd3e21/hasil%20pop%20up.png)
 
 ## ➗ 4. Operasi Aritmatika
 
@@ -87,7 +87,7 @@ Membuat perhitungan sederhana menggunakan JavaScript.
 </script>
 
 ```
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/e54e0cd9f7f5b01b650ae5055abc718d06dd3e21/hasil%20perjumlahan.png)
 
 ### 🔍 5. Seleksi Kondisi (if...else)
 
@@ -118,13 +118,29 @@ Menampilkan pesan berdasarkan hari yang dimasukkan.
     case "senin":
       document.write("<br>Semangat kerja!");
       break;
-    case "minggu":
+    case "selasa":
       document.write("<br>Waktunya santai~");
+      break;
+    case "rabu":
+      document.write("<br>waktunya pemrograman web");
+      break;
+    case "kamis":
+      document.write("<br>waktunya jaringan komputer");
+      break;
+    case "jum'at":
+      document.write("<br>waktunya android studio");
+      break;
+    case "sabtu":
+      document.write("<br>Waktunya wekeend~");
+      break;
+    case "minggu":
+      document.write("<br>so sad end the wekeend~");
       break;
     default:
       document.write("<br>Hari tidak dikenal 😅");
   }
 </script>
+
 
 ```
 

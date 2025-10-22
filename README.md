@@ -144,7 +144,9 @@ Menampilkan pesan berdasarkan hari yang dimasukkan.
 
 ```
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/7782b352d5d8e24ea7d7a264f04f0610251059f0/hasil%20case.png)
+
+untuk halaman case, saya tambah beberapa output
 
 ### 📝 7. Validasi Form (Tugas Akhir)
 
@@ -189,9 +191,11 @@ Membuat form pendaftaran sederhana dengan validasi agar tidak boleh kosong.
 
 ```
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/086979cd5e5d308054d74beef6485f4e195857bd/tampilan%20form.png)
 
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/086979cd5e5d308054d74beef6485f4e195857bd/form%20berhasil%20di%20isi.png)
+
+![foto](https://github.com/aprilia55/Lab5web/blob/086979cd5e5d308054d74beef6485f4e195857bd/form%20yg%20blm%20di%20isi%20data%20lengkap.png)
 
 
 

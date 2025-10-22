@@ -44,4 +44,35 @@ Kode berikut digunakan untuk menampilkan teks “Hello World” di halaman dan c
 </body>
 </html>
 
+```
+
 ![foto]()
+
+### 💬 3. Menampilkan Alert, Prompt, dan Function
+
+Kode ini menampilkan pesan pop-up dan meminta input nama pengguna, kemudian menampilkan sapaan.
+
+```html
+<script>
+  alert("Halo bayi coder!");
+
+  let nama = prompt("Siapa nama kamu?");
+  alert("Hai " + nama + "! Selamat belajar JavaScript~");
+
+  function sapa(nama) {
+    document.write("<br>Halo juga, " + nama + "!");
+  }
+
+  sapa(nama);
+</script>
+
+```
+![foto]()
+
+![foto]()
+
+![foto]()
+
+
+
+

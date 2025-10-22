@@ -44,4 +44,4 @@ Kode berikut digunakan untuk menampilkan teks “Hello World” di halaman dan c
 </body>
 </html>
 
-!(foto)[]
+![foto]()

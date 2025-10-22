@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mengenal JavaScript</title>
+</head>
+<body>
+  <h1>Pengenalan JavaScript</h1>
+  <h3>Contoh document.write dan console.log</h3>
+
+  <script>
+    document.write("Hello World"); // muncul di halaman
+    console.log("Hello World"); // muncul di console browser
+  </script>
+
+  <script>
+  // alert = munculin pesan pop-up
+  alert("Halo bayi coder!");
+
+  // prompt = buat nanya sesuatu
+  let nama = prompt("Siapa nama kamu?");
+  alert("Hai " + nama + "! Selamat belajar JavaScript~");
+
+  // fungsi sederhana
+  function sapa(nama) {
+    document.write("<br>Halo juga, " + nama + "!");
+  }
+
+  sapa(nama);
+</script>
+<script>
+  let a = 10;
+  let b = 5;
+  let hasil = a + b;
+  document.write("<br>Hasil penjumlahan: " + hasil);
+</script>
+<script>
+  let umur = prompt("Masukin umur kamu:");
+  if (umur >= 18) {
+    document.write("<br>Kamu udah dewasa!");
+  } else {
+    document.write("<br>Kamu masih bocil 😆");
+  }
+</script>
+<script>
+  let hari = prompt("Masukin hari (senin/minggu):");
+  switch (hari) {
+    case "senin":
+      document.write("<br>Semangat kerja!");
+      break;
+    case "minggu":
+      document.write("<br>Waktunya santai~");
+      break;
+    default:
+      document.write("<br>Hari nggak dikenal 😅");
+  }
+</script>
+
+
+</body>
+</html>

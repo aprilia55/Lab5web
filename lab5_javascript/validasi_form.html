@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Validasi Form</title>
+</head>
+<body>
+  <h2>Form Pendaftaran Bayi Coder 🍼</h2>
+
+  <form onsubmit="return validasiForm()">
+    Nama: <input type="text" id="nama"><br><br>
+    Email: <input type="email" id="email"><br><br>
+    Umur: <input type="number" id="umur"><br><br>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <script>
+    // ini fungsi buat ngecek form
+    function validasiForm() {
+      // ambil nilai dari inputan
+      let nama = document.getElementById("nama").value;
+      let email = document.getElementById("email").value;
+
+      // kalau ada yang kosong
+      if (nama == "" || email == "") {
+        alert("Isi dulu nama dan email-nya yaa 😚");
+        return false; // biar form-nya gak dikirim
+      } else {
+        alert("Yay, data kamu udah lengkap 🎉");
+        return true; // biar form-nya dikirim
+      }
+    }
+  </script>
+  <script>
+  function validasiForm() {
+    // ambil nilai dari setiap input
+    let nama = document.getElementById("nama").value;
+    let email = document.getElementById("email").value;
+    let umur = document.getElementById("umur").value;
+
+    // kalau ada yang kosong
+    if (nama == "" || email == "" || umur == "") {
+      alert("Isi semua datanya yaa 😚");
+      return false; // biar form nggak dikirim dulu
+    } 
+    // kalau semua sudah diisi
+    else {
+      alert("Yay, data kamu udah lengkap 🎉");
+      return true; // biar form dikirim
+    }
+  }
+</script>
+
+</body>
+</html>

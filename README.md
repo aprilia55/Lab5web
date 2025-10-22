@@ -105,7 +105,7 @@ Kode ini digunakan untuk menentukan apakah pengguna sudah dewasa atau belum.
 </script>
 
 ```
-![foto]()
+![foto](https://github.com/aprilia55/Lab5web/blob/c8f89b9131dc932c988b5a10263f6656554f6d47/hasil%20umur.png)
 
 ### 🔄 6. Switch Case
 
